@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Cairo:wght@200&family=Kumbh+Sans:wght@100;300&family=Lexend+Deca&family=Montserrat:wght@100;400&family=Outfit:wght@400;700&family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+*{
+    font-family: 'Red Hat Display', sans-serif;
+}
+body{
+    background-image: url(/images/pattern-background-desktop.svg);
+}
+
+.card{
+    margin: 50px auto;
+    width: 242px;
+    height: 410px;
+    background-color: white;
+    border-radius: 14px;
+}
+img{
+    width: 100%;
+    border-top-right-radius: 14px;
+    border-top-left-radius: 14px;
+}
+
+.title{
+    text-align: center;
+    color:  hsl(223, 47%, 23%) ;
+    font-weight: 900;
+}
+
+.p{
+    text-align: center;
+    padding: 10px;
+    font-size: 10px;
+    color:  hsl(224, 23%, 55%);
+}
+.info{
+    display: flex;
+    font-size: 11px;
+    padding-left:31px ;
+}
+.ico{
+    width: 35px;
+}
+.se{
+    margin-left:11px ;
+    
+}
+.name{
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+}
+span{
+    color:hsl(224, 23%, 55%) ; 
+}
+.ch{
+    margin: auto;
+    color: hsl(245, 75%, 52%);
+    font-size: 9px;
+    font-weight: 700;
+    text-decoration: solid hsl(245, 75%, 52%) underline;
+}
+.fin{
+    margin: 50px 10px 20px;
+    text-align: center;
+    
+}
+.pp{
+    font-size: 9px;
+    color: white;
+    padding: 7px 42px;
+    border-radius: 8px;
+    border: solid 1px hsl(245, 75%, 52%);
+    background-color: hsl(245, 75%, 52%);
+}
+.co {
+    border: none;
+    margin-top: 15px;
+    background-color: white;
+    color:hsl(224, 23%, 55%);
+    font-size: 9px;
+    font-weight: 700;
+}
+.pp:hover{
+    background-color: hsl(245, 37%, 53%);
+    border: 1px solid hsl(245, 37%, 53%) ;
+    cursor:pointer;
+}
+.co:hover{
+    color: hsl(223, 47%, 23%);
+    cursor:pointer;
+}
+.ch :hover{
+    color: hsl(245, 37%, 53%) ;
+}
+
+
